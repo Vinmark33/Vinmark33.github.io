@@ -1,0 +1,174 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.193236683)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 204,
+            "type": "VEC3",
+            "max": [
+                0.10447225719690323,
+                0.9999999403953552,
+                0.5561197996139526
+            ],
+            "min": [
+                -0.10447225719690323,
+                -1.0,
+                -0.5561197996139526
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 204,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 204,
+            "type": "VEC2",
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 204,
+            "type": "SCALAR",
+            "max": [
+                203.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6936,
+            "uri": "C:/Users/vinma/OneDrive/Desktop/A.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2448,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2448,
+            "byteLength": 2448,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4896,
+            "byteLength": 1632,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6528,
+            "byteLength": 408,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "initialShadingGroup",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pCube1",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                4.785959720611572,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.785959720611572,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.785959720611572,
+                0.0,
+                0.0,
+                4.64530086517334,
+                -2.161566972732544,
+                1.0
+            ],
+            "children": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "g default"
+        },
+        {
+            "name": "g pCube1",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
