@@ -125,13 +125,13 @@
 	    bevelEnabled: true
 
 	  });
-      textGeometry.translate( -0.24, 0, 0);
+      textGeometry.translate(-0.24, 0, 0);
 	  var textMaterial = new THREE.MeshNormalMaterial();
 
 	  var mesh = new THREE.Mesh( textGeometry, textMaterial );
 	   arWorldRoot.add( mesh );
 	   onRenderFcts.push(function(){
-            mesh.rotation.y += 0.05
+            mesh.rotation.z += 0.05
         })
 
 	});   
