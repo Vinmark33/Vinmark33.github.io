@@ -97,7 +97,7 @@
 	
 	// add a torus knot	
                                     
-    var geometry = new THREE.SphereGeometry(0.7, 32, 32);    // la sfera!!!!
+    var geometry = new THREE.SphereGeometry(0.7, 32, 32); 
     var material = new THREE.MeshNormalMaterial({
         transparent : true,
         opacity: 0.4,
@@ -131,15 +131,13 @@
 	  var mesh = new THREE.Mesh( textGeometry, textMaterial );
 	   arWorldRoot.add( mesh );
 	   onRenderFcts.push(function(){
-            mesh.rotation.z += 0.05
-            mesh.rotation.x += 0.05
+            mesh.rotation.y += 0.05
         })
 
 	});   
 	
 
 	var stats = new Stats();
-	
 	// render the scene
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );
