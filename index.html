@@ -96,8 +96,8 @@
 	
 	
 	// add a torus knot	
-	
-    var geometry = new THREE.SphereGeometry(0.7, 32, 32);
+                                    
+    var geometry = new THREE.SphereGeometry(0.7, 32, 32);    // la sfera!!!!
     var material = new THREE.MeshNormalMaterial({
         transparent : true,
         opacity: 0.4,
@@ -139,7 +139,7 @@
 	
 
 	var stats = new Stats();
-	document.body.appendChild( stats.dom );
+	
 	// render the scene
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );
