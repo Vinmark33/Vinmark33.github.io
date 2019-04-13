@@ -130,10 +130,11 @@
 	   mesh.rotation.x = Math.PI / 2;
 	   mesh.rotation.y = Math.PI;
 	   mesh.rotation.z = Math.PI;
+	  console.log("ok");
 	   arWorldRoot.add( mesh );
-	// onRenderFcts.push(function(){
-     //      mesh.rotation.z += 0.05
-      //  })
+	 onRenderFcts.push(function(){
+          mesh.rotation.y += 0.05
+       })
 	});   
 	
 
