@@ -127,6 +127,7 @@
 	  var textMaterial = new THREE.MeshNormalMaterial();
 
 	  var mesh = new THREE.Mesh( textGeometry, textMaterial );
+	mesh.rotation.x = Math.PI / 2;
 	   arWorldRoot.add( mesh );
 	   onRenderFcts.push(function(){
             mesh.rotation.z += 0.05
